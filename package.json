@@ -25,7 +25,7 @@
     "paginate",
     "api"
   ],
-  "peerDependencies":{
+  "peerDependencies": {
     "@nestjs/common": "*",
     "@nestjs/core": "*",
     "@nestjs/typeorm": "*",
@@ -51,7 +51,7 @@
     "tslib": "^2.3.1",
     "typescript": "^4.6.2"
   },
-  "author": "drzioner <drzioner@gmail.com>",
+  "author": "Deiner Jose Vega Hernandez <drzioner@gmail.com>",
   "license": "MIT",
   "files": [
     "dist"
@@ -60,5 +60,13 @@
     "hooks": {
       "commit-msg": "commitlint -c .commitlintrc.json -E HUSKY_GIT_PARAMS"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drzioner/nestjs-paginate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drzioner/nestjs-paginate/issues"
+  },
+  "homepage": "https://github.com/drzioner/nestjs-paginate#readme"
 }

@@ -1,0 +1,15 @@
+{
+  "include": ["src/**/*.ts"],
+  "exclude": ["dist", "src/**/*.test.ts"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "outDir": "dist",
+    "declaration": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
+}

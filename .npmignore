@@ -1,0 +1,31 @@
+.idea/
+.circleci
+.github
+.gitignore
+.prettierrc
+.travis.yml
+Makefile
+node_modules/
+.DS_Store
+CONTRIBUTE.md
+
+# source
+**/*.ts
+*.ts
+/test
+
+# definitions
+!**/*.d.ts
+!*.d.ts
+
+# configuration
+tsconfig.json
+tools
+/.vscode
+.commitlintrc.json
+.eslintrc.js
+.eslintignore
+jest.config.js
+
+# sample
+/example
