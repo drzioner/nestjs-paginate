@@ -26,6 +26,8 @@
     "api"
   ],
   "peerDependencies": {
+    "class-transformer": "*",
+    "class-validator": "*",
     "@nestjs/common": "*",
     "@nestjs/core": "*",
     "@nestjs/typeorm": "*",
