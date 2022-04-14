@@ -5,30 +5,30 @@ import { IsArray, IsNotEmpty, IsNumber } from 'class-validator';
 export class PaginateDto {
   @IsNotEmpty()
   @IsNumber()
-  readonly total: number;
+  total: number;
 
   @IsNotEmpty()
   @IsNumber()
-  readonly limit: number;
+  limit: number;
 
   @IsNotEmpty()
   @IsArray()
-  readonly items: unknown[];
+  items: unknown[];
 
   @IsNotEmpty()
   @IsNumber()
-  readonly firstPage: number | string;
+  firstPage: number | string;
 
   @IsNotEmpty()
   @IsNumber()
-  readonly currentPage: number | string;
+  currentPage: number | string;
 
   @IsNumber()
-  readonly nextPage: number | string;
+  nextPage: number | string;
 
   @IsNumber()
-  readonly prevPage: number | string;
+  prevPage: number | string;
 
   @IsNumber()
-  readonly lastPage: number | string;
+  lastPage: number | string;
 }
