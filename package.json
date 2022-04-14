@@ -1,6 +1,6 @@
 {
   "name": "@drzioner/nestjs-paginate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library for NestJS and TypeORM paging in a simple way",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
