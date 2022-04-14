@@ -1,0 +1,3 @@
+/environment/*
+!/environment/index.ts
+!/environment/environment.example.ts
